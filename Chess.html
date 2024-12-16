@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- This is the first chess webpage with the chess content on pieces and their movements-->
+ <html lang="en">
+    <main>
+        <head>
+            <title>Chess board game</title> 
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href=" C:\Users\user\OneDrive\Documents\HTML PROJECT\C code\style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Carter+One&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fuggles&family=IM+Fell+English+SC&family=Kode+Mono:wght@400..700&family=Matemasie&family=Monoton&family=Pacifico&family=VT323&display=swap" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+            <style>
+                body{
+                    background-image:url('C:\\Users\\user\\OneDrive\\Documents\\HTML PROJECT\\site pictures\\breathtaking.jpg');
+                    background-size:cover;
+                    background-position:center;
+                    background-repeat:no-repeat;
+                    background-attachment:fixed;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;}
+                
+                
+                div{
+                    display:flex;
+                    max-width:70vw;
+                    background-color:darkgrey;
+                    border-radius:20px;
+                    opacity:0.8;
+                    justify-content:center;
+                    flex-direction: column;
+                    padding:20px;}
+                
+                p{
+                    font-family:'Cormorant Infant', serif;
+                    font-size:23px;
+                    color:black;}
+                
+                h1{
+                    font-family:'Monoton',Georgia;
+                    font-size:30px;
+                    text-align:center;
+                    color:black;}
+                
+                h2{
+                    font-family:'Cabin Sketch',Helvetica;
+                    font-size:26px;
+                    text-align:left;
+                    text-decoration-line:underline;
+                    text-decoration-color:purple;
+                    color:black;}
+                
+                h3{
+                    font-family:'IM Fell English SC', Arial;
+                    font-size:22px;
+                    text-align:left;
+                    font-style:italic;
+                    color:black;}
+                   
+                li{
+                    font-family:Verdana, Tahoma, sans-serif;
+                    font-size:20px;
+                    text-align:left;
+                    font-style:bold;
+                    text-decoration-line:underline;
+                    color:black;}
+                
+                
+                *{
+                    box-sizing:border-box;}
+                img{
+                    max-width:30vw;
+                    max-height:30vw;
+                    object-fit:cover;
+                }
+                
+                            </style>
+                        
+        </head>
+    </main>
+    <body>
+        <div>
+        <h1>Chess:Overview, Rules and Regulations</h1>
+        <h2>What is Chess?</h2>
+        <p> Chess is a board game that is played on a board with 64 squares(8 squares on each side of the board).</p>
+        <p> The game is played by two players with each player having a set of pieces that are color coded either black or white.
+            The player with the white pieces will usually play first according to the rule book of the International Chess Federation 
+
+        </p>
+        <h2> How is Chess played?</h2>
+        <p> In chess, the players usually have pieces with different movements and characteristics</p>
+        <p>The characteristics and names of these pieces are as follows:</p>
+            <ol>
+           <li>Pawns</li> 
+           <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\pawns.png"
+            alt="A picture of two wooden pawns on a chess board">
+            <p> The pawns are pieces that move forward only. During the first move of the pawns, they can either move one or two squares forward 
+              but after that they can only move one square forward. The pawns can only capture pieces that are on the squares that are on the 
+               immediate diagonals as the pawn itself.
+
+               There is a row of pawns on the 2nd row(the side closest to the player).
+               When the pawn reaches the 8th row of the board(The row furthest from the player), the pawn is promoted to any of the pieces 
+               that will be discussed in the later sections.This piece is worth one point.               
+            </p>
+            <h3> Pawn movement</h3>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\pawn movement.png"
+             alt="Movement of pawns">
+        
+            <li>Rooks</li>
+           <!-- the two anchor tags should be inline to each other with CSS-->
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\white rook.jpg" alt="Picture of a white rook">
+           <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\Black rook.png" alt="Picture of a black rook">
+            <p>The rook is a piece that is able to move in straight paths(horizontally and vertically).
+                It can move either forwards, bacwards, left and right.This piece is worth 5 points and is located on the extreme right and 
+                left of the board on the first row(also called rank).            
+            </p>
+            <h3>Rook Movement</h3> 
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\rook movement.png" alt="movement of rooks">      
+       
+            <li>Knights</li>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\two knights.png"
+            alt="Two knight chess pieces facing each other">
+            <p>
+                A knight moves in a typical 'L' shape. Two squares vertically and then one square horizontally or vice versa. This piece is able to jump over the 
+                row of pawns that are infront of it. This piece is located beside the rooks and is worth 3 points. It captures in the manner that it moves.
+                This piece cannot jump over the pawns.
+            </p>
+            <h3>Knights Movement</h3>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\knight movement.png" alt="Movement of knights">           
+        
+            <li>Bishops</li>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\two bishops.png"alt="pictures of bishops in chess">
+            <p> 
+                A bishop moves in a diagonal path in any direction across the board.This piece is located beside the knights and its values is 3 points. 
+                It captures in the direction of its movement. This piece cannot jump over the pawns.
+            </p>
+            <h3>Bishop's Movement</h3>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\bishop movement.png"alt="Movement of bishops">
+        
+            <li>Queen</li>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\two queens.png" alt="Picture of a queen in chess">
+            <p>
+                The queen is one of the most powerful pieces in chess since it has a point worth of 8. This piece is a combination of boht the rook and the bishop. 
+                The queen moves horizontally, vertically and diagonally. For white, this piece is beside the bishop on the left while for black, this piece is beside 
+                the bishop on the right. This piece cannot jump over the pawns.
+            </p>
+            <h3>Queen's Movement</h3>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\queen movement.png" alt="the movement of the queen">
+        
+            <li>6.King</li>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\two kings.png" alt="Picture oftwo kings in chess">
+            <p>
+                The king is the most important pieces of the chess game since he defines if a game is won ,lost or drawn. The king only moves one square around himself and
+                is beside the queen in the only available space. The king cannot be captured unlike the other pieces.
+            </p>
+            <h3>King's Movements</h3>
+            <img src="C:\Users\user\OneDrive\Documents\HTML PROJECT\site pictures\king movement.png" alt="movement of the king">
+        </ol>
+        <p>Next lets learn some general rules and tactics</p>
+        <!--Check the button tag and add a link to it with the  target="_blank " attribute-->
+        <button type="button" style="max-width:100px;max-height:30px;border-radius:10px;">
+            <a href="chesstactics.html">Next</a></button>
+    </div>
+    </body>
+</html>

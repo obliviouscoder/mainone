@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--This is the main menu for the choosing of the game article to be read-->
+<html lang="en">
+    <main>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href=" C:\Users\user\OneDrive\Documents\HTML PROJECT\C code\style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <title>Main Menu</title>
+            <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Carter+One&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fuggles&family=IM+Fell+English+SC&family=Kode+Mono:wght@400..700&family=Matemasie&family=Monoton&family=Pacifico&family=VT323&display=swap" rel="stylesheet">
+            <style>
+
+
+                /*Code for the main menu div elements*/
+.board{
+        display:flex;
+        width:60vw;
+        height:8vw;
+        text-decoration:none;
+        border: 2px double white;
+        border-radius:40px;
+        transition: width 3s, height 3s, transform 2s, ease out;
+        position:relative;
+        top:5px;
+        left:5px;
+        text-shadow:4px 4px 4px yellow 0.5px 0.5px 1px orange;
+        background-image:url('C:\\Users\\user\\OneDrive\\Documents\\HTML PROJECT\\site pictures\\boardimage.png');
+        background-repeat:no-repeat;
+        vertical-align:center;
+        justify-content:right; 
+        align-items:center;
+        margin:5px;}
+
+.board:hover{
+        width:65vw;
+        height:10vw;
+        transform:translate(1vw,2vw);
+        z-index:1;}
+
+
+#mainmenu{
+        background-color:black;
+        box-sizing:border-box;}
+
+#mhone{
+        text-shadow:4px 4px 4px yellow, 0.5px 0.5px 1px orange;
+        font-size:45px;
+        font-family:'Courier New', Courier, monospace;
+        color:white;}
+
+
+#mainmenu{
+        box-sizing:border-box;
+        background-image:url('C:\\Users\\user\\OneDrive\\Documents\\HTML PROJECT\\site pictures\\cloud in sky.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+        max-height:1500px;}
+ 
+
+.team{
+        display:flex;
+        width:60vw;
+        height:8vw;
+        text-decoration:none;
+        border: 2px double white;
+        border-radius:40px;
+        transition: width 3s, height 3s, transform 2s, ease out;
+        position:relative;
+        top:5px;
+        left:5px;
+        text-shadow:4px 4px 4px yellow 0.5px 0.5px 1px orange;
+        background-image:url('C:\\Users\\user\\OneDrive\\Documents\\HTML PROJECT\\site pictures\\footballnew.png');
+        background-repeat:no-repeat;
+        vertical-align:center;
+        justify-content:right; 
+        align-items:center;
+        margin:5px;}
+
+.team:hover{
+        width:65vw;
+        height:10vw;
+        transform:translate(1vw,2vw);
+        z-index:1;}
+
+
+#mhtwo{
+        text-shadow:4px 4px 4px yellow, 0.5px 0.5px 1px orange;
+        font-size:45px;
+        font-family:'Courier New', Courier, monospace;
+        color:white;}
+
+
+.martial{
+        display:flex;
+        width:60vw;
+        height:8vw;
+        text-decoration:none;
+        border: 2px double white;
+        border-radius:40px;
+        transition: width 3s, height 3s, transform 2s, ease out;
+        position:relative;
+        top:5px;
+        left:5px;
+        text-shadow:4px 4px 4px yellow 0.5px 0.5px 1px orange;
+        background-image:url('C:\\Users\\user\\OneDrive\\Documents\\HTML PROJECT\\site pictures\\martial artistnew.png');
+        background-repeat:no-repeat;
+        vertical-align:center;
+        justify-content:right; 
+        align-items:center;
+        margin:5px;}
+
+.martial:hover{
+        width:65vw;
+        height:10vw;
+        transform:translate(1vw,2vw);
+        z-index:1;}
+
+
+
+#mhthree{
+        text-shadow:4px 4px 4px yellow, 0.5px 0.5px 1px orange;
+        font-size:45px;
+        font-family:'Courier New', Courier, monospace;
+        color:white;}
+
+
+.racket{
+        display:flex;
+        width:60vw;
+        height:8vw;
+        text-decoration:none;
+        border: 2px double white;
+        border-radius:40px;
+        transition: width 3s, height 3s, transform 2s, ease out;
+        position:relative;
+        top:5px;
+        left:5px;
+        text-shadow:4px 4px 4px yellow 0.5px 0.5px 1px orange;
+        background-image:url('C:\\Users\\user\\OneDrive\\Documents\\HTML PROJECT\\site pictures\\tennis courtnew.png');
+        background-repeat:no-repeat;
+        vertical-align:center;
+        justify-content:right; 
+        align-items:center;
+        margin:5px;}
+
+.racket:hover{
+        width:65vw;
+        height:10vw;
+        transform:translate(1vw,2vw);
+        z-index:1;}
+
+
+
+#mhfour{
+        text-shadow:4px 4px 4px yellow, 0.5px 0.5px 1px orange;
+        font-size:45px;
+        font-family:'Courier New', Courier, monospace;
+        color:white;}
+
+
+.bat{
+        display:flex;
+        width:60vw;
+        height:8vw;
+        text-decoration:none;
+        border: 2px double white;
+        border-radius:40px;
+        transition: width 3s, height 3s, transform 2s, ease out;
+        position:relative;
+        top:5px;
+        left:5px;
+        text-shadow:4px 4px 4px blue 0.5px 0.5px 1px black;
+        background-image:url('C:\\Users\\user\\OneDrive\\Documents\\HTML PROJECT\\site pictures\\polo picturenew.png');
+        background-repeat:no-repeat;
+        vertical-align:center;
+        justify-content:right; 
+        align-items:center;
+        margin:5px;}
+
+.bat:hover{
+        width:65vw;
+        height:10vw;
+        transform:translate(1vw,1vw);
+        z-index:1;}
+
+
+
+#mhfive{
+        text-shadow:4px 4px 4px yellow, 0.5px 0.5px 1px orange;
+        font-size:45px;
+        font-family:'Courier New', Courier, monospace;
+        color:white;}
+    
+
+
+            </style>
+        </head>
+    </main>
+  
+    <body id="mainmenu">
+       
+        <a href="board.html">
+            <div class="board"> 
+                <h1 id="mhone">Board games</h1>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="70" height="100" fill="currentColor" class="bi-bi-chevron-double-right" 
+                    viewBox="0 0 16 16" style="font-size:40px; color:rgb(14, 214, 225);">
+                    <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                    <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </a>
+
+        <a href="team.html">
+            <div class="team"> 
+                <h1 id="mhtwo">Team Sports</h1>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="70" height="100" fill="currentColor" class="bi-bi-chevron-double-right" 
+                    viewBox="0 0 16 16" style="font-size:40px; color:rgb(14, 214, 225);">
+                    <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                    <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </a>
+
+        <a href="martial.html">
+            <div class="martial"> 
+                <h1 id="mhthree">Martial Arts Sports</h1>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="70" height="100" fill="currentColor" class="bi-bi-chevron-double-right" 
+                    viewBox="0 0 16 16" style="font-size:40px; color:rgb(14, 214, 225);">
+                    <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                    <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </a>
+
+        <a href="racket.html">
+            <div class="racket"> 
+                <h1 id="mhfour">Racket Sports</h1>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="70" height="100" fill="currentColor" class="bi-bi-chevron-double-right" 
+                    viewBox="0 0 16 16" style="font-size:40px; color:rgb(14, 214, 225);">
+                    <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                    <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </a>
+
+        <a href="bat.html">
+            <div class="bat"> 
+                <h1 id="mhfive">Bat and Ball Sports</h1>
+                <svg xmlns="http://www.w3.org/2000/svg"  width="70" height="100" fill="currentColor" class="bi-bi-chevron-double-right" 
+                    viewBox="0 0 16 16" style="font-size:40px; color:rgb(14, 214, 225);">
+                    <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+                    <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </a>
+        
+    </body>
+
+</html>
+
